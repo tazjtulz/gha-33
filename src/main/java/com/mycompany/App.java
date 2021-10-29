@@ -1,18 +1,12 @@
 package com.mycompany;
 
-import java.util.function.Function;
-
 /**
  * Hello world!
  *
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        //System.out.println( "Hello World!" );
-        Function suma = (a + b);
-        return
-
+    public int sumafunc ( int a, int b ) {
+        return a + b;
     }
 }
